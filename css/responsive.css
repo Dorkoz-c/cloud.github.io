@@ -15,7 +15,7 @@
         font-size: 14px;
     }
     .titlepage h2 {
-        font-size: 40px;
+        font-size: 50px;
     }
     .carousel-caption h1 {
         font-size: 50px;
@@ -63,7 +63,7 @@
         transform: translateY(-47%);
     }
     .titlepage h2 {
-        font-size: 40px;
+        font-size: 50px;
     }
     .mobile .titlepage span {
         margin-left: 10px;
@@ -91,7 +91,7 @@
         margin-top: 20px;
     }
     .titlepage h2 {
-        font-size: 35px;
+        font-size: 50px;
     }
     .padding_bottom1 {
         padding-bottom: 30px;
@@ -162,8 +162,8 @@
         display: none;
     }
     .titlepage h2 {
-        font-size: 22px;
-        line-height: 32px;
+        font-size: 50px;
+        line-height: 50px;
     }
     .about_img {
         padding-top: 30px;
