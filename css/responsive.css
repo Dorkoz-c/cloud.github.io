@@ -15,14 +15,14 @@
         font-size: 14px;
     }
     .titlepage h2 {
-        font-size: 37px;
+        font-size: 40px;
     }
     .carousel-caption h1 {
-        font-size: 49px;
+        font-size: 50px;
         padding-bottom: 0px;
     }
     .carousel-caption span {
-        font-size: 38px;
+        font-size: 30px;
     }
     .carousel-caption a {
         margin-top: 30px;
@@ -63,13 +63,13 @@
         transform: translateY(-47%);
     }
     .titlepage h2 {
-        font-size: 29px;
+        font-size: 40px;
     }
     .mobile .titlepage span {
-        margin-left: 19px;
+        margin-left: 10px;
     }
     .clients .titlepage span {
-        margin-left: 28px;
+        margin-left: 20px;
     }
 }
 
