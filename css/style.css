@@ -386,14 +386,14 @@ button {
 .carousel-indicators .active {
      background: #00aeef;
 }
-
+/*
 .carousel-indicators li {
      width: 20px;
      height: 20px;
      background: #fafcfd;
      border-radius: 20px;
 }
-
+*/
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
      display: none;
@@ -425,7 +425,7 @@ button {
 
 .carousel-caption a {
      font-size: 17px;
-     background-color: #00aeef;
+     background-color: #E7B332;
      color: #fff;
      font-weight: 500;
      padding: 13px 0px;
