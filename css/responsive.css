@@ -241,5 +241,28 @@
     flex-direction: column;
   }
 }
+@media (max-width: 768px) {
+    .info-box {
+        width: 100%; /* Cambiar el ancho a 100% en dispositivos móviles */
+    }
+}
+@media (max-width: 768px) {
+    .info-container {
+        gap: 10px; /* Reducir el espacio entre los recuadros en dispositivos móviles */
+    }
+}
+@media (max-width: 768px) {
+    .info-box h2 {
+        font-size: 18px; /* Aumentar el tamaño del título en dispositivos móviles */
+    }
+    .info-box p {
+        font-size: 14px; /* Aumentar el tamaño del texto en dispositivos móviles */
+    }
+}
+@media (max-width: 768px) {
+    .info-box {
+        text-align: center; /* Centrar el texto en dispositivos móviles */
+    }
+}
 
 
