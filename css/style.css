@@ -404,7 +404,10 @@ button {
 }
 
 .carousel-item img {
-     width: 100%;
+    max-width: auto; /* La imagen no excederá el ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la relación de aspecto original */
+    display: block; /* Para evitar posibles espacios adicionales debajo de la imagen */
+    margin: 0 auto; /* Centra horizontalmente la imagen */
 }
 
 .carousel-caption h1 {
