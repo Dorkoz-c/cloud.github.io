@@ -213,4 +213,10 @@
         background-repeat: no-repeat;
     }
 }
+@media (max-width: 768px) {
+  .cuadro {
+    padding: 10px; /* Ajusta el padding para más espacio */
+    font-size: 14px; /* Reduce el tamaño del texto */
+  }
+}
 
