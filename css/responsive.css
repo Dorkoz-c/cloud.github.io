@@ -213,10 +213,33 @@
         background-repeat: no-repeat;
     }
 }
+/* Para tablets */
 @media (max-width: 768px) {
   .cuadro {
-    padding: 10px; /* Ajusta el padding para más espacio */
     font-size: 14px; /* Reduce el tamaño del texto */
+    padding: 10px; /* Ajusta el padding */
+  }
+
+  .contenedor-cuadros {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flex a columna */
   }
 }
+
+/* Para teléfonos móviles */
+@media (max-width: 576px) {
+  .cuadro {
+    font-size: 12px; /* Reduce aún más el tamaño del texto */
+  }
+
+  .titlepage, .about_img, .clients_box, .footer {
+    text-align: center; /* Centra el contenido para móviles */
+  }
+
+  /* Asegura que los elementos se apilen verticalmente en dispositivos más pequeños */
+  .contenedor-cuadros {
+    flex-direction: column;
+  }
+}
+
 
