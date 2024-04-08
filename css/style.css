@@ -597,7 +597,6 @@ button {
 }
 
 .info-box {
-    width: 30%; /* Ajusta esto según lo necesites */
     background-color: #f2f2f2;
     margin: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -850,22 +849,4 @@ ul.cont li {
     flex-wrap: wrap;
     justify-content: center; /* Centra los recuadros horizontalmente */
     gap: 20px; /* Espacio entre los recuadros */
-}
-
-.info-box {
-    width: calc(33.33% - 20px); /* Ajusta el ancho de cada recuadro para que haya tres en una fila */
-    text-align: center; /* Centra el texto dentro de cada recuadro */
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.info-box h2 {
-    margin-top: 0;
-    color: #E7B332;
-}
-
-.info-box p {
-    color: #666;
 }
